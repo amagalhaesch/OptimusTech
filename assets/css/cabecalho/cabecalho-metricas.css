@@ -1,0 +1,43 @@
+.cabecalho__metricas {  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 32px;
+    width: 100vw;
+}
+
+.cabecalho__metricas-titulo {
+    color: var(--vermelho-sangue);
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 72px;
+    margin-bottom: 12px;
+}
+
+.cabecalho__metricas-subtitulo {
+    color: var(--preto__titulo);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
+
+.cabecalho__metricas-texto {
+    color: var(--cinza-claro);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    width: 280px;
+}
+
+.cabecalho__metricas-divisao {
+    display: flex;
+}
