@@ -1,0 +1,34 @@
+
+.procurando-talentos {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.procurando-talentos__vagas {
+    align-items: center;
+    background-color: var(--fundo__titulo-vagas-abertas);
+    border-radius: 1em;
+    color: var(--vermelho-sangue);
+    display: flex;
+    height: 28px;
+    justify-content: center;
+    margin-left: 45%;
+    padding: 4px 12px;
+    width: 125px;
+}   
+
+.procurando-talentos__titulo {
+    color: var(--preto__titulo);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    margin-bottom: 1rem;
+}
+
+.procurando-talentos__texto {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+
+    margin-bottom: 4rem;
+}

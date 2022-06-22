@@ -5,9 +5,5 @@
 
 .cabecalho__texto {
     color: var(--cinza-claro);
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
     line-height: 24px;
 }

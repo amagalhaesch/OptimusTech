@@ -1,0 +1,38 @@
+.vagas {
+    margin: 0 16rem;
+}
+
+.vagas__dev {
+    margin-top: 4rem;
+}
+
+.combo__vagas {
+    background-color: var(--branco);
+    border: 1px solid var(--borda__vagas);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem 1.5rem 1.75rem 1.5rem;
+    width: 100%;
+    height: 5.25rem;
+}
+
+.vagas__titulo {
+    color: var(--preto__titulo);
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+
+.vagas__subtitulo {
+    color: var(--preto__titulo);
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.vagas__descricao {
+    display: flex;
+    gap: 1rem;
+}

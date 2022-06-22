@@ -3,22 +3,19 @@
     display: flex;
     justify-content: space-between;
     height: 44px;
-    margin: 18px 32px;
+    margin: 1.125rem 2rem;
     width: 100vw;
 }
 
 .cabecalho__logo {
     align-items: center;
     display: flex;
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 .cabecalho__logo-texto {
     color: var(--preto__logo);
-    font-family: 'Inter', sans-serif;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
     line-height: 24px;
 }
 
@@ -26,7 +23,7 @@
 .cabecalho__links {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 2.5rem;
     margin-right: 20vw;
     margin-left: 3vw;
 }
@@ -47,9 +44,7 @@
 
 .cabecalho__login-texto {
     color: var(--branco);
-    font-family: 'Inter', sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;  
 }
