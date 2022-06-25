@@ -11,3 +11,5 @@
 #DIA 5 [Criado sessao de "Vagas"]
 #DIA 6 [Criando sessao de depoimento de colaborador]
 #DIA 7 [Criando rodape da pagina]
+
+Prototipo: https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0%3A9878
