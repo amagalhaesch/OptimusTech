@@ -16,10 +16,12 @@
     <link rel="stylesheet" href="assets/css/principal/principal.css">
     <link rel="stylesheet" href="assets/css/principal/procurandoTalentos.css">
     <link rel="stylesheet" href="assets/css/principal/vagas.css">
+    <link rel="stylesheet" href="assets/css/principal/colaboradores.css">
+    <link rel="stylesheet" href="assets/css/rodape/rodape.css">
 </head>
 
 <body>
-    <header class="cabecalho">
+    <header class="cabecalho container">
         <section class="cabecalho__navegacao">
             <div class="cabecalho__logo">
                 <img src="assets/img/logo-worldwide_1.png" alt="Logo OptimusTech">
@@ -77,7 +79,7 @@
         </section>
     </header>
 
-    <main class="principal">
+    <main class="principal container">
         <section class="procurando-talentos">
             <h6 class="procurando-talentos__vagas">Vagas abertas!</h6>
             <h2 class="procurando-talentos__titulo">Estamos procurando por talentos</h2>
@@ -96,7 +98,7 @@
                         <p>Faixa salarial: R$6.000</p>
                     </span>
                 </div>
-                
+
                 <div class="combo__vagas">
                     <h6 class="vagas__subtitulo">UX Designer</h6>
                     <span class="vagas__descricao">
@@ -105,7 +107,7 @@
                     </span>
                 </div>
             </div>
-            
+
             <div class="vagas__dev">
                 <h5 class="vagas__titulo">Desenvolvimento de Software</h5>
                 <div class="combo__vagas">
@@ -115,7 +117,7 @@
                         <p>Faixa salarial: R$8.000</p>
                     </span>
                 </div>
-                
+
                 <div class="combo__vagas">
                     <h6 class="vagas__subtitulo">Desenvolvedor(a) Front-end</h6>
                     <span class="vagas__descricao">
@@ -133,7 +135,26 @@
                 </div>
             </div>
         </section>
+
+        <section class="colaboradores">
+            <h6 class="colaboradores__titulo">Veja o que nossos colaboradores falam sobre nós</h6>
+            <p class="colaboradores__subtitulo">OptimusTech se importa com a saúde dos seus colaboradores e sempre
+                procura nos dar todo tipo de auxílio possível.</p>
+            <img src="assets/img/Avatar.png" alt="Imagem do colaborador" class="colaboradores__imagem">
+            <h6 class="colaboradores__nome">Júlia Castro</h6>
+            <p class="colaboradores__funcao">Desenvolvedora Web</p>
+        </section>
     </main>
+
+    <footer class="rodape">
+        <h5 class="rodape__titulo">Acompanhe as nossas oportunidades</h5>
+        <p class="rodape__texto">Seja o primeiro a saber quando novas vagas serão abertas!</p>
+        <form class="rodape__formulario">
+            <input type="email" name="email" placeholder="Seu e-mail" class="rodape__email">
+            <button type="submit" aria-label="cadastrar" class="rodape__botao-cadastrar">Cadastrar</button>
+        </form>
+        <p class="rodape__copyright">&copy; 2022 OptimusTech. Todos os direitos reservados.</p>
+    </footer>
 </body>
 
 </html>

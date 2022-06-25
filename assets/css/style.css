@@ -7,6 +7,10 @@
     --preto__titulo: #101828;
     --vermelho-sangue: #8E2424;
     --fundo__titulo-vagas-abertas: rgba(142, 36, 36, 0.05);
+    --fundo__colaboradores: rgba(196, 25, 25, 0.03);
+    --fundo__rodape: #F9FAFB;
+    --formulario__email: #D0D5DD;
+    --formulario__fundo: rgba(16, 24, 40, 0.05);
 }
 
 body {
@@ -15,5 +19,8 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
+}
+
+.container {
     margin: 0 5rem;
 }
